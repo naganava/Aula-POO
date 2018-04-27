@@ -1,7 +1,12 @@
 package heranca;
 
 public class Transporte {
-    private int capacidade;
+    protected int capacidade;
+    
+    public Transporte(int capacidade){
+        super();
+        this.capacidade = capacidade;
+    }
     
     public Transporte(){
         
